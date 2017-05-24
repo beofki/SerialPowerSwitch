@@ -4,6 +4,8 @@ A small linux utility to control a powerswitch via DTR line on UART
 Usage example to power on:
 `./SerialPowerSwitch /dev/ttyUSB0 1`
 
+Note: This program does not restore the termios settings on quit as most others do.
+
 View below is Male connector (PC side)
 ```
     1 2 3 4 5
